@@ -5,4 +5,77 @@
 }
 body{
     background-color: #dee1fe;
+    color: #000;
 }
+.container {
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F6FB ;
+    padding: 15px;
+    font-family: sans-serif;
+}
+nav .nav {
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    list-style: none; /* to remove li dot */
+    display: flex;
+}
+.navbar li {
+    font-size: 1rem;
+    margin: 10px;
+    font-weight: 600; /* text thickness */
+}
+.navbutton {
+    font-size: 1rem;
+}
+.navbutton button {
+    padding: 10px;
+    background-color: #000;
+    color: #F0F6FB;
+    border-radius: 5px;
+    border: none;
+}
+
+.Juliannepic img {
+    max-width: 100%;
+    width: 50%;
+}
+
+.display {
+    display: flex;
+    padding: 5px;
+}
+.button-hireme {
+    margin-right: 10px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    max-width: 100%;
+}
+.intro {
+    text-align: left;
+}
+
+
+.display {
+}
+
+
