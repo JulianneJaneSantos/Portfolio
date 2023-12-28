@@ -8,7 +8,7 @@ body{
     color: #000;
 }
 .container {
-    max-width: 80%; 
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -65,17 +65,74 @@ nav .nav {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 20px;
-    margin: auto;
-    width: 80%;
-    max-width: 100%;
+    margin: 0 auto;
+    width: 75%;
+    padding: 50px 50px;
+    font-family: sans-serif;
+}
+.intro-bg{
+    background-color: #F0F6FB;
 }
 .intro {
     text-align: left;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    
 }
+.surname {
+    color: rgb(228, 40, 71);
+}
+.Juliannepic{
+    border-radius: 50%;
 
-
+}
+.button-cv button{
+    background-color: white;
+    color: #000;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.button-hireme button {
+    background: linear-gradient(purple,violet);
+    color: #ffff;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .display {
+    margin-top: 20px;
+}
+.intro h2{
+    margin-bottom: 20px;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+
+}
+.desc {
+    text-align: left;
+}
+.picture-about img{
+    width: 50%;
+}
+.selection {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
 }
 
-
+.Whatwedo{
+    display: flex;
+}
